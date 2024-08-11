@@ -1,0 +1,53 @@
+.navbar img{
+  width: 100px;
+  height: 90px;
+  display: flex;
+  display: inline-block;
+  margin-left: 10px;
+}
+.nav ul {
+
+    list-style:none ;
+    text-align: center;
+}
+.navbar li{
+  
+    display: inline-block;
+    margin-right: 10px;
+ padding: 11px;
+
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar :hover{
+    color: blue;
+}
+.upper{
+    display: flex;
+
+  padding: 10px;
+  gap: 50px;
+  margin-left:30px;
+ 
+}
+.lower{
+    display: flex;
+    margin-left:30px;
+    
+    padding: 20px;
+    justify-content: baseline;
+    gap: 50px;
+}
+.banner{
+   justify-content: center;
+}
+.carouselslide{
+margin-top: -10px;
+}
+.carousel-item active img{
+    width: 500;
+    height: 400
+    ;
+}
